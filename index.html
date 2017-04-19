@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>lol</title>
+  <link rel="stylesheet" href="lol_index.css">
+  <script language =javascript >
+ var curIndex=0;
+ //时间间隔 单位毫秒
+ var timeInterval=5000;
+ var arr=new Array();
+ arr[0]="image/a221200.jpg";
+ arr[1]="image/a221201.jpg";
+ arr[2]="image/a221202.jpg";
+ arr[3]="image/a221203.jpg";
+ arr[4]="image/a221204.jpg";
+
+setInterval(changeImg,timeInterval);
+function changeImg()
+{
+    var obj=document.getElementById("obj");
+    if (curIndex==arr.length-1) 
+    {
+        curIndex=0;
+    }
+    else
+    {
+       curIndex+=1;
+    }
+   obj.src=arr[curIndex];
+}
+</script>
+ </head>
+ <body>
+ 	
+ 	<div class="container">
+  <header id='top'>
+    <div id='logo'>
+	 <a class='logo1' href="#"></a>
+	</div>
+    <ul>
+	 <li><a href="#"><p>官网首页</p>HOME</a></li>
+	 <li><a href="#"><p>游戏资料</p>GAME INFO</a></li>
+	 <li><a href="#"><p>商城/合作</p>STORE</a></li>
+	 <li><a href="#"><p>用户互动</p>COMMUNITY</a></li>
+	 <li><a href="#"><p>赛事中心</p>EVENTD</a></li>
+	 <li><a href="#"><p>自助系统</p>SYSTEM</a></li>
+	 <li><a href="#"><p>个人中心</p>USER CENTER</a></li>
+	</ul>
+	<div id="top_next">
+	 <ul>
+	 <li><a href="#">新手指引</a></li>
+	 <li><a href="#">点券充值</a></li>
+	 <li><a href="#">在线客服</a></li>
+	 <li><a href="#">LPL职业联赛</a></li>
+	 <li><a href="#">封号查询</a></li>
+	 <li><a href="#">个人资料</a></li>
+	 </ul>
+	 <ul>
+	 <li><a href="#">资料库</a></li>
+	 <li><a href="#">道聚城</a></li>
+	 <li><a href="#">活动中心</a></li>
+	 <li><a href="#">甲级职业联赛</a></li>
+	 <li><a href="#">体验服申请</a></li>
+	 <li><a href="#">我的英雄与皮肤</a></li>
+	
+	 </ul>
+	 <ul>
+	 <li><a href="#">攻略中心</a></li>
+	 <li><a href="#">英雄联盟画册</a></li>
+	 <li><a href="#">官方论坛</a></li>
+	 <li><a href="#">德玛西亚杯</a></li>
+	 <li><a href="#">服务器状态查询</a></li>
+	 <li><a href="#">战绩历史</a></li>
+	 </ul>
+	 <ul>
+	 <li><a href="#">模式实验室</a></li>
+	 <li><a href="#">英雄联盟桌游</a></li>
+	 <li><a href="#">官方微信</a></li>
+	 <li><a href="#">城市英雄争霸赛</a></li>
+	 <li><a href="#">裁决之镰</a></li>
+	 <li></li>
+	 </ul>
+	 <ul>
+	 <li><a href="#">海克斯战利品库</a></li>
+	 <li><a href="#">LOL信用卡</a></li>
+	 <li><a href="#">官方微博</a></li>
+	 <li><a href="#">高校联赛</a></li>
+	 <li></li>
+	 <li></li>
+	 </ul>
+	 <ul>
+	 <li><a href="#">屏保下载</a></li>
+	 <li><a href="#">网吧特权</a></li>
+	 <li></li>
+	 <li><a href="#">校际精英赛</a></li>
+	 <li></li>
+	 <li></li>
+	 </ul>
+	</div>
+   
+  </header>
+  <div id='act'>
+    <h1>大冰雪节</h1>
+	<p>活动时间：2016年12月15日-2017年1月10日</p>
+	<div class='video_middle'>
+	 <video src="video/big-v13.mp4" autoplay loop></video>
+	</div>
+    <div id='act_left'><img src="image/bg-play.png">
+	 <video src="video/small-v13.mp4" autoplay loop></video>
+	</div>
+	<a class='info' href="#">查看详情</a>
+	<h3>当前游戏版本：<span>Ver 6.24.1</span> <a href="#">版本详情</a> </h3>
+	<h2>
+	 <ul>
+	 <li><a href="#"><dl><dd></dd><dt>新手礼包</dt><dt><span>新手任务好礼</span></dt></dl></a></li>
+	 <li><a href="#"><dl><dd class="libao_1"></dd><dt>视频中心</dt><dt><span>最新最全视频</span></dt></dl></a></li>
+	 <li><a href="#"><dl><dd class="libao_2"></dd><dt>赛事中心</dt><dt><span>权威赛事数据</span></dt></dl></a></li>
+	 <li><a href="#"><dl><dd class="libao_3"></dd><dt>游戏资料</dt><dt><span>海量英雄资料</span></dt></dl></a></li>
+	 <li><a href="#"><dl><dd class="libao_4"></dd><dt>新版客户端</dt><dt><span>用户体验升级</span></dt></dl></a></li>
+	 </ul>
+	 <div class='act_login'>
+	  <div><img src="image/ttt.png"/></div>
+	  <h4>亲爱的召唤师，欢迎<a href="#">登录</a></h4>
+	  <h6>登录后查看自己的英雄联盟游戏信息，包括</h6>
+	  <h6><span>召唤师等级、段位信息、游戏胜场数、账户信息、声望值</span> 等。</h6>
+	 </div>
+	</h2>
+	
+  </div>
+  <nav id="nav">
+   <div id='nav_left'>
+    <div id='nav_image'><img id="obj" src="image/a221200.jpg" ></div>
+	<ul>
+	<li class='lunbo1'>大冰雪节活动</li>
+	<li class='lunbo2'>冰雪节皮肤</li>
+	<li class='lunbo3'>永不言弃的无手哥</li>
+	<li class='lunbo4'>冰雪节海克斯活动</li>
+	<li class='lunbo5'>lol段子大赛</li>
+	</ul>
+   </div>
+   <div id='nav_right'>
+    <ul class='nav_right_top'>
+     <li>综合</li>
+	 <li>公告</li>
+	 <li>赛事</li>
+	 <li>论坛</li>
+	 <li class="more"><a href="#">>>></a></li>
+    </ul>
+    <ul id='nav_right_middle'>
+	 <li><a href="#"  class="first"><span></span>Bengi联手“侯爷”征战LPL 前路几何</a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+     <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+	 <li><a href="#"><span class='sai'>赛事</span>LPL赛事新生报到 你最期待谁<span class='Date'>12/27</span></a></li>
+    </ul>
+    <div id='nav_right_bottom'>【调研】留下你的意见，我们会做的更好！</div>
+   
+   </div>
+  
+
+  </nav>
+  <div id='main'>
+    <div id='main_left'>
+
+    	<div class='main_logo'>
+			 <div><span></span><b>视频中心</b></div><span class="changes">进入视频中心</span><span class="changes">我要投稿</span>
+		</div>
+   
+   		 <ul>
+     		<li  class='daohang'>最新视频</li>
+     		<li  class='daohang'>解说视频</li>
+	 		<li  class='daohang'>周免英雄</li>
+	 		<li  class='daohang'>赛事视频</li>
+	 		<li  class='daohang'>趣味集锦</li>
+	 		<li  class='daohang'>官方视频</li>
+    	</ul>
+    	<div  class='clear'></div>
+    		<ul id='videos'>
+     			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu"  href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+	 			<li><a class="video_xiu" href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new"><div><img src="image/bg-icon-v.png"/></div></a><a href="http://lol.qq.com/v/go.shtml?id=47665&type=lwvideo&url=http://www.loldn.com/yule/42131.html&e_code=main.videototal.new">卡蜜尔暴力输出1V4</a></li>
+    		</ul>
+
+    	<div class="clear"></div>
+    	<div class="clear" id='video_more'>再显示<b>8</b>个视频</div>
+    </div>
+    
+    <div id="main_right">
+    	<div class='mai_logo'>
+			<div><span></span><b>英雄/皮肤</b></div><span class="change">我的英雄</span><span class="change">我的全部英雄</span>
+	    </div>
+	    <ul class="hidden1">
+	    	<li class='daohan'>周免英雄</li>
+	    	<li class='daohan'>最新英雄</li>
+	    	<li class='daohan'>最新皮肤</li>
+	    </ul>
+	    <ul class="clear">
+	    	<li class="hero"><img src="image/164_Web_0.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_1.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_2.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_3.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_4.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_5.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_6.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_7.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_8.jpg"/></li>
+	    	<li class="hero"><img src="image/164_Web_9.jpg"/></li>
+
+	    </ul>
+	    <p align="right">免费时间：2016-12-30 至 2017-01-06</p>
+    </div>
+    <div id="main_bottom">
+    	<div class='ma_logo'>
+			<div><span></span><b>快速入口</b></div>
+	    </div>
+	    <ul class="hidden2">	
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    	<li class="dianliang"><b></b><a href="#">点亮图标</a></li>
+	    </ul>
+    </div>
+    
+  </div>
+  <div id="footer_top" class='lf'>
+  	    <div class='m_logo'>
+			 <div><span></span><b>赛事中心</b></div><span class="chang">进入赛事中心</span>
+		</div>
+		 <ul>
+     		<li  class='daohang'>职业联赛</li>
+     		<li  class='daohang'>甲级职业联赛</li>
+	 		<li  class='daohang'>德玛西亚杯</li>
+	 		<li  class='daohang'>高校联赛</li>
+	 		<li  class='daohang'>城市英雄争霸赛</li>
+	 		<li  class='daohang'>王者峡谷</li>
+    	</ul>
+  		<div id="footer_main">
+  			<div id="footer_main_left" class="clear lf">
+  				<img src="image/Jevent_n1.jpg"/>
+  				<a href="#" style="display:block; margin-top:10px;width:180px;height:40px;line-height:40px;font-size:14px;text-align:center;color:#0b4c3f;font-weight: bold;background:url(image/public-spr.png) no-repeat 0px -346px;">进入赛事页面</a>
+  			</div>
+  			<div id="footer_main_right" class="lf" style="margin-left:20px;margin-top:20px;">
+  				<a href="#" style="display: block;width:580px;margin-bottom: 10px;font-size: 26px;color: #00A686;font-weight: bold;line-height: 30px;">2016英雄联盟职业联赛夏季赛<b style="display:block;float:right;margin-right:10px;">4200</b></a>
+  				<p style="display:block;font-size: 14px;">时间：2016-11-12-2016-11-13 <b style="display:block;float:right;margin-right:10px;font-weight: normal;">万人关注</b></p>
+  				<p style="display:block;font-size: 14px;padding:0px 0px 20px 0px;border-bottom:#E0E0E0 solid 1px;">地点：线上</p>
+  				<ul>
+  					<li><a href="#">王者峡谷全民线赛现金奖励发放延期</a><b>12/29</b></li>
+  					<li><a href="#">全民线上海选赛奖励发放</a><b>12/29</b></li>
+  					<li><a href="#">《王者峡谷》全民线上海选赛圆满结束</a><b>12/29</b></li>
+  					<li><a href="#">《王者峡谷》全民线上海选赛报名开启</a><b>12/29</b></li>
+  					<li><a href="#">王者峡谷线上冠军锦标赛奖励发放公告</a><b>12/29</b></li>
+  					<li><a href="#">线上冠军锦标赛第9轮开启</a><b>12/29</b></li>
+  				</ul>
+  			</div>
+  		</div>
+  	    
+  </div>
+  <div id="footer_right_right" class="rt">
+  	    		<div class='ma_log'>
+  	    			<div><span></span><b>活动中心</b></div><span class="chan">进入活动中心</span>
+	            </div>
+	            <div class="lf">
+	            	<img src="image/lol_1480302069_sTopImgUrl.jpg"/>
+	            </div>
+	            <ul class="rt">
+	            	<li class="color3"><a href="#">2017官方赛事解说招募启<b class="color1">已结束</b> </a></li>
+	            	<li class="color4"><a href="#">老兵不死，只是凋零。统治<b class="color2">进行中</b> </a></li>
+	            	<li class="color4"><a href="#">英雄联盟全新混音专辑<b class="color2">进行中</b> </a></li>
+	            	<li class="color4"><a href="#">五杀乐队头像领取<b class="color2">进行中</b> </a></li>
+	            	<li class="color4"><a href="#">全国高校排行榜<b class="color2">进行中</b> </a></li>
+	            	<li class="color3"><a href="#">2016赛季个人数据回顾<b class="color1">已结束</b > </a></li>
+	            	<li class="color3"><a href="#">寻找大元素使拉克丝，赢取<b class="color1">已结束</b> </a></li>
+	            </ul>
+  </div>
+   <div><img src="image/pic-qt.jpg" style="float:right;margin-right:55px;margin-top:55px;"/>	</div>
+  <div id="bottom" class="clear"> 
+
+  			<div class='m_log'>
+			     <div><span></span><b>客服专区</b></div><span  class="cha">...</span><span class="cha">QQ在线客服</span>
+		    </div>
+            <ul class="clear">
+     		<li  class='daohang'>自助服务</li>
+     		<li  class='daohang'>常见问题列表</li>
+	 		<li  class='daohang'></li>
+	 		<li  class='daohang'>登录相关</li>
+	 		<li  class='daohang'>游戏相关</li>
+	 		<li  class='daohang'>电脑及其他问题</li>
+    	</ul>
+    	<div id="bottom_bottom" style='width:780px;'>
+    		<ul class="lf" style='width:50%;'>
+    			<li><a href="#">英雄联盟（LOL）晋级助手</a></li>
+    			<li><a href="#">英雄联盟（LOL）如何查看皮肤特效</a></li>
+    			<li><a href="#">英雄联盟（LOL）限定皮肤获得方法</a></li>
+    			<li><a href="#">英雄联盟（LOL）点券充错大区了怎么办？</a></li>
+    			<li><a href="#">英雄联盟（LOL）聊天框弹出中奖信息/举报虚假信</a></li>
+   		 	</ul>
+    		<ul class="lf" style='width:50%;'>
+    			<li><a href="#">英雄联盟（LOL）晋级助手</a></li>
+    			<li><a href="#">英雄联盟（LOL）如何查看皮肤特效</a></li>
+    			<li><a href="#">英雄联盟（LOL）限定皮肤获得方法</a></li>
+    			<li><a href="#">英雄联盟（LOL）点券充错大区了怎么办？</a></li>
+    			<li><a href="#">英雄联盟（LOL）聊天框弹出中奖信息/举报虚假信</a></li>
+   		 	</ul>
+    		
+    	</div>
+  
+  </div>
+
+  <div id="footer" class="clear">	
+  		<div id="footer_logo"></div>
+  		<div id='footer_list1'><b>英雄，我们在这里等你</b><p>扫描下载《英雄联盟》官方APP，</p><p>获取最新最全的官方动态</p></div>
+  		<div id="footer_list2"><b>温馨提示：本游戏适合18岁(含)以上玩家娱乐</b><p>抵制不良游戏      拒绝盗版游戏       注意自我保护       谨防受骗上当     适度游戏益脑</p><p>沉迷游戏伤身        合理安排时间             享受健康生活</p></div>
+  		<div style='float:left;font-size:16px;font-weight:bold;margin-left:150px;padding-top:25px;'>英雄联盟官方合作媒体<select></select></div>
+  </div>
+  
+  <div id='last' class="clear">	
+        <div id="last_logo">
+        	
+        </div>
+        <div id=a'last_right'>
+        	<pre>
+ 
+ 
+腾讯互动娱乐|腾讯互动娱乐|服务条款|广告服务|腾讯游戏招聘|腾讯游戏客服|游戏活动|游戏地图|商务合作|腾讯网|网站导航
+COPYRIGHT © 1998 - 2016 TENCENT. ALL RIGHTS RESERVED.                                           腾讯公司版权所有
+© 2012 Riot Games, Inc. ALL RIGHTS RESERVED.
+文网进字[2011] 004号 & ISBN 978-7-89989-145-2|新出网证（粤）字010号|粤网文[2014]0633-233号</pre>
+        </div>
+  </div>
+  </div>
+ </body>
+</html>
